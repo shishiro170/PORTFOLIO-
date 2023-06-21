@@ -1,0 +1,125 @@
+
+.title{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    top: 20%;
+    left: 40%;
+    font-size: 70px;
+    z-index: 100;
+}
+.col h1{    
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    top: 20%;
+}
+p{
+    width: 500px;
+    position: relative;
+    top: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+.col{
+    position: relative;
+    height: 100vh;
+    opacity: 1;
+}
+img{
+    position: relative;
+    top: 20%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+aside{
+    position: absolute;
+    z-index:1000 ;
+    height: 100vh;
+    width: 100px;
+    background-color:skyblue;
+}
+ul {
+    padding: 20px;
+    display: list-item;
+    margin: 0 !important;
+    position: absolute;
+    top: 30%;
+    width: 90px ;
+    height: 100%;
+    z-index: 5000;
+}
+li{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.modal-content {
+   background: transparent !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    border: none !important;
+    color: white !important;
+    position: absolute;
+    align-items: center !important;
+    font-family:'Courier New', Courier, monospace;
+}
+.modal-dialog{
+    margin: 35px;
+    position: fixed;
+    left: 0% !important;
+    top: 0% !important;
+}
+.btn-close{
+    position: absolute;
+    right: 10%;
+}
+.modal-body{
+    overflow-y: hidden !important;
+}
+iframe{
+    width: 90vw;
+    height: 80vh;
+}
+.container{
+    margin: 0 !important;
+    width: 100vw !important;
+    height: 100vh;
+    background-color: rgb(173, 216, 230,50%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width:100%;
+}
+.container img{
+    left: 10%;
+}
+.Active i{
+    color: black !important;
+}
+body{
+    overflow: hidden;
+}
+ul li a h1 {
+    position: relative;
+    left: 0%;
+    font-size: 10px;
+    display: none;
+    color: white;
+}
+li a i {
+    color: grey;
+    font-size: 40px;
+}
+ul li:hover i {
+    color:black;
+}
+body{
+    background-color: transparent;
+}
+.Sample{
+    width: 550px;
+    height: 300px;
+    border-radius: 0% !important;
+    margin-left: 30px;
+}

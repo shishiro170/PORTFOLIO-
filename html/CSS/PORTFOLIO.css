@@ -1,0 +1,117 @@
+
+h1{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    top: 35%;
+    font-size: 35px;
+    font-weight: bold;
+}
+p{
+    width: 500px;
+    position: relative;
+    top: 35%;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+.col{
+    position: relative;
+    height: 100vh;
+    opacity: 1;
+}
+img{
+    position: relative;
+    top: 30%;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+aside{
+    position: absolute;
+    z-index:1000 ;
+    height: 100vh;
+    width: 100px;
+    background-color:skyblue;
+}
+ul {
+    padding: 20px;
+    display: list-item;
+    margin: 0 !important;
+    position: absolute;
+    top: 30%;
+    width: 90px ;
+    height: 100%;
+    z-index: 5000;
+}
+li{
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    margin: 0 !important;
+    width: 100vw !important;
+    height: 100vh;
+    background-color: rgb(173, 216, 230,50%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width:100%;
+    
+}
+.Active i{
+    color: black !important;
+}
+body{
+    overflow: hidden;
+}
+ul li a h1 {
+    position: relative;
+    left: 0%;
+    font-size: 10px;
+    display: none;
+    color: white;
+}
+li a i {
+    color: grey;
+    font-size: 40px;
+}
+ul li:hover i {
+    color:black;
+}
+body{
+    background-color: transparent;
+}
+.col a{
+    position: relative;
+    top: 15%;
+
+}
+.col a img{
+    position: relative;
+    left: 0%;
+    transition: 0.5s;
+}
+.col a:hover img{
+    transform: scale(1.2);
+}
+.col a i {
+    color: grey;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+.col a i:hover{
+    color: black;
+}
+.Icon{
+    position: relative;
+    top: 30%;
+    font-size: 200px;
+    color: grey;
+    left: 60%;
+}
+a{
+    color: grey !important;
+    text-decoration: none;
+}
